@@ -1,4 +1,4 @@
-export default [
+const pugsData = [
     {
         id: 1,
         name: "Elvis Pugsley",
@@ -131,10 +131,6 @@ export default [
         url: "https://i.pinimg.com/564x/58/72/2c/58722c68f0ef06180582acdcca0e36bf.jpg",
         expenses: "4.49",
     },
-
-
-
-
-
-
 ]
+
+export default pugsData

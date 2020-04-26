@@ -1,11 +1,11 @@
-import React, {useState, useEffect} from "react"
-import pugsData from "..data/pugsData"
+import React, {useState, useEffect} from 'react'
+import pugsData from '../data/pugsData.js'
 
-const Context = React.createContext()
+const Context = React.createContext();
 
-function ContextPugListProvider({children}) {
+const ContextPugListProvider = ({children}) => {
     const [allPugs, setAllPugs] = useState([]);
-    
+
     useEffect(() => setAllPugs(pugsData), []);
 
     return (
