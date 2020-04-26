@@ -1,0 +1,36 @@
+/* @font-face {
+ font-family: "italic";
+  src: url(\..\\assets\fonts\Exo2-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+} */
+/* FIX THIS ^ */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00CED1;
+    color: var(--light-blue);
+    padding: 0 10px;
+    -webkit-box-shadow: 0px 2px 10px -5px rgba(21,6,5,1);
+    -moz-box-shadow: 0px 2px 10px -5px rgba(21,6,5,1);
+    box-shadow: 0px 2px 10px -5px rgba(21,6,5,1);
+    font-family: italic;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+    
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+i.fas, i.fa-paw {
+    font-size: 200%;  
+    color: white;
+}
