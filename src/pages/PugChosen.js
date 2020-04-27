@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import {ContextPugChosen} from '../context/ContextPugChosen'
 
 function PugChosen () {
+    const {chosenPugs} = useContext(ContextPugChosen);
+    const chosen = chosenPugs.map(pug => pug.id);
     return (
-        <h2>chosen</h2>
+        <div>
+            <h2>chosen</h2>
+            {chosen}
+        </div>
     )
 }
 

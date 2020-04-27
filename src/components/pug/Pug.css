@@ -12,7 +12,7 @@ img.image-grid {
     padding: 3px;
 }
 
-.favorite {
+.choose {
     color: var(--red);
     font-size: 1.2rem;
     position: absolute;
@@ -21,7 +21,7 @@ img.image-grid {
     cursor: pointer;
 }
 
-.choose {
+.favorite {
     color: var(--red);
     font-size: 1.2rem;
     position: absolute;
@@ -29,8 +29,13 @@ img.image-grid {
     right: 10px;
     cursor: pointer;
 }
-.far{
+.choose-icon {
     font-size: 200%;
     color: white;
+}
+
+.chosen-icon {
+    font-size: 200%;
+    color: #00CED1;
 }
 

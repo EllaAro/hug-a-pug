@@ -2,19 +2,22 @@ import React, { useState } from 'react'
 
 const Context = React.createContext();
 
-function ContextPugChosen ({children}) {
+function ContextPugChosenProvider ({children}) {
     const [chosenPugs, setChosenPugs] = useState([]);
-
-    const updateChosenPugs = () => {
-        
-    }
+    console.log(chosenPugs);
+    
+    const updateChosenPugs = (newChosenPug) => setChosenPugs( prevChosenPugs => setChosenPugs([...prevChosenPugs,newChosenPug]));
+     
+    const removeChosenPug = (removedChosenPug) => {
+        setChosenPugs(prevChosenPugs => prevChosenPugs.filter(pug => pug.id !== removedChosenPug.id))
+     }
 
     return (
-        <Context.Provider value={{setChosenPugs}}>
+        <Context.Provider value={{chosenPugs, updateChosenPugs, removeChosenPug}}>
             {children}
         </Context.Provider>
     )
 
 }
 
-export default ContextPugChosen
+export { ContextPugChosenProvider, Context as ContextPugChosen }

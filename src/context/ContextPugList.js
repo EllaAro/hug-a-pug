@@ -15,4 +15,4 @@ const ContextPugListProvider = ({children}) => {
     )
 }
 
-export {ContextPugListProvider, Context as ContextPugList}
+export { ContextPugListProvider, Context as ContextPugList }
