@@ -53,12 +53,12 @@ const pugsData = [
         url: "https://i.pinimg.com/564x/75/13/9e/75139e3a45f9ac9e9af7438bce0ab126.jpg",
         expenses: "7.99",
     },
-    {
-        id: 10,
-        name: "Bobbi",
-        url: "https://i.pinimg.com/564x/b2/7b/d2/b27bd277274079b00f6dc1c3290aeb1f.jpg",
-        expenses: "1.99",
-    },
+    // {
+    //     id: 10,
+    //     name: "Bobbi",
+    //     url: "https://i.pinimg.com/564x/b2/7b/d2/b27bd277274079b00f6dc1c3290aeb1f.jpg",
+    //     expenses: "1.99",
+    // },
     {
         id: 11,
         name: "Puguette",
@@ -82,12 +82,6 @@ const pugsData = [
         name: "Jasper",
         url: "https://i.pinimg.com/564x/66/2f/3b/662f3b6ea4ce4568b594853bba6a7c09.jpg",
         expenses: "6.49",
-    },
-    {
-        id: 15,
-        name: "Harry Pugger",
-        url: "https://i.pinimg.com/564x/c4/96/94/c4969486f007b97ce344b84c80bbccf1.jpg",
-        expenses: "3.49",
     },
     {
         id: 16,

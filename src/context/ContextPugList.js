@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import pugsData from '../data/pugsData.js'
+import pugsData from '../assets/data/pugsData.js'
 
 const Context = React.createContext();
 

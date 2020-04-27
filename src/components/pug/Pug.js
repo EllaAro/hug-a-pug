@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
+import './Pug.css'
 
-function Pug () {
+function Pug ({pugInfo}) {
+    const [hovered, setHovered] = useState(false);
+
     return (
-        <div>
-            
+        <div 
+            className="image-container"
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+        >
+            <img src={pugInfo.url} className="image-grid" alt={pugInfo.name}/>
         </div>
     )
 }
