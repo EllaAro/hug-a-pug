@@ -11,3 +11,26 @@ img.image-grid {
     grid-row: span 3;
     padding: 3px;
 }
+
+.favorite {
+    color: var(--red);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.choose {
+    color: var(--red);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.far{
+    font-size: 200%;
+    color: white;
+}
+
