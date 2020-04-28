@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import {ContextPugChosen} from '../context/ContextPugChosen'
+import  '../App.css'
 
 function PugChosen () {
     const {chosenPugs} = useContext(ContextPugChosen);
