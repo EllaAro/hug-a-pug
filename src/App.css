@@ -11,6 +11,10 @@ main.chosen-pugs-cart {
     padding: 10px;
 }
 
-.chosen-pugs-cart > h1 {
+.chosen-pugs-cart > h1, h3 {
     text-align: center;
+}
+
+.body {
+    color: #E0FFFF;
 }
