@@ -17,16 +17,23 @@ function PugChosen () {
         }, 3000)
     }
 
+    const costOfExpenses = () => {
+        return !isChosenPugsEmpty() && <h3>Total Cost Of Expenses: {sumOfExpenses()}$</h3>
+    }
+
+    const submitRequestBtn = () => {
+        return !isChosenPugsEmpty() &&
+                <div className="request-btn">
+                    <button className='myButton' onClick={submitRequest}>{buttonText}</button>
+                </div>
+    }
+
     return (
         <main className='chosen-pugs-cart'>
             <h1>Chosen Pugs</h1>
             {chosen}
-                {!isChosenPugsEmpty() &&
-                <h3>Total Cost Of Expenses: {sumOfExpenses()}$</h3>}
-                {!isChosenPugsEmpty() &&
-                <div className="request-btn">
-                    <button className='myButton' onClick={submitRequest}>{buttonText}</button>
-                </div>} 
+                {costOfExpenses()}
+                {submitRequestBtn()} 
                 <h3>{requestText}</h3>
         </main>
     )
