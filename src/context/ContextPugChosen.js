@@ -21,8 +21,12 @@ function ContextPugChosenProvider ({children}) {
         return (chosenPugs === undefined || chosenPugs.length === 0);
     }
 
+    const emptyChosenPugs = () => {
+        setChosenPugs([]);
+    }
+
     return (
-        <Context.Provider value={{chosenPugs, updateChosenPugs, removeChosenPug, sumOfExpenses, isChosenPugsEmpty}}>
+        <Context.Provider value={{chosenPugs, updateChosenPugs, removeChosenPug, sumOfExpenses, isChosenPugsEmpty, emptyChosenPugs}}>
             {children}
         </Context.Provider>
     )

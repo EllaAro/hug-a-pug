@@ -9,3 +9,8 @@
     margin-right: auto;
     margin-left: 10px;   
 }
+
+.fa-times-circle {
+    font-size: 1.3em;
+    cursor: pointer;
+}

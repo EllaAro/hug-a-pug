@@ -1,12 +1,14 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './ChosenPug.css' 
+import {ContextPugChosen} from '../../context/ContextPugChosen'
 
 function ChosenPug ({chosenPug}) {
+    const {removeChosenPug} = useContext(ContextPugChosen);
 
     return (
     <div className="cart-item">
-            <i className="ri-delete-bin-line"></i>
-            <img src={chosenPug.url} width="130px" alt={chosenPug.description} />
+            <i class="far fa-times-circle" onClick={() => removeChosenPug(chosenPug)}></i>
+            <img src={chosenPug.url} width="130px" alt= {chosenPug.description} />
             <p>{chosenPug.expenses}</p>
 
     </div>
