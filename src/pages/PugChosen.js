@@ -9,7 +9,7 @@ function PugChosen () {
     const {chosenPugs, sumOfExpenses, isChosenPugsEmpty, emptyChosenPugs} = useContext(ContextPugChosen);
     const chosen = chosenPugs.map(pug => <ChosenPug key={pug.id} chosenPug={pug}/>);
 
-    const submitRequest = () => {
+    const submitRequest = () => { // Replacing an Ajax call - this is a dummy way of 'submitting' a request
         setButtonText("Submitting...");
         setTimeout(() => {
             setRequestTextText("Reqest Submitted");
@@ -22,7 +22,8 @@ function PugChosen () {
             <h1>Chosen Pugs</h1>
             {chosen}
                 {!isChosenPugsEmpty() &&
-                <h3>Total Cost Of Expenses: {sumOfExpenses()}</h3> &&
+                <h3>Total Cost Of Expenses: {sumOfExpenses()}$</h3>}
+                {!isChosenPugsEmpty() &&
                 <div className="request-btn">
                     <button className='myButton' onClick={submitRequest}>{buttonText}</button>
                 </div>} 

@@ -1,6 +1,8 @@
 import React, {useState, useContext} from 'react'
 import {ContextPugChosen} from '../../context/ContextPugChosen'
 import PropTypes from 'prop-types'
+import Popup from "reactjs-popup";
+import Description from '../description/Description'
 import './Pug.css'
 
 function Pug ({pugInfo}) {
@@ -27,7 +29,10 @@ function Pug ({pugInfo}) {
             onMouseLeave={() => setHovered(false)}
         >
             {chooseIcon()}
-            {hovered && <i className='fas fa-dog favorite'></i>}
+            {hovered && <Popup trigger={<i className='fas fa-dog description'></i>}>
+                <Description pugInfo={pugInfo}/>
+            </Popup>}
+
             <img src={pugInfo.url} className='image-grid' alt={pugInfo.name}/>
         </div>
     )
