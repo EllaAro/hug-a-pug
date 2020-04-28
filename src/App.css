@@ -6,3 +6,11 @@ main.pug-list {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-auto-flow: dense;
 }
+
+main.chosen-pugs-cart {
+    padding: 10px;
+}
+
+.chosen-pugs-cart > h1 {
+    text-align: center;
+}

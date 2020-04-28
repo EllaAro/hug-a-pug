@@ -6,10 +6,10 @@ function PugChosen () {
     const {chosenPugs} = useContext(ContextPugChosen);
     const chosen = chosenPugs.map(pug => pug.id);
     return (
-        <div>
-            <h2>chosen</h2>
+        <main className='chosen-pugs-cart'>
+            <h1>These Are The Pugs You Chose!</h1>
             {chosen}
-        </div>
+        </main>
     )
 }
 
