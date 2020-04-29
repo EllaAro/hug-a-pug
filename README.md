@@ -5,11 +5,11 @@ Stuck at home because of COVID-19? Why not get a cute pug at it?
 'Hug A Pug' provides a service for humans that want to rent the services of our cute puggy pups! In times like these, where COVID-19 has prevented us from having any human contact, we can now supplement it with some pug love!
 ## How Does The Site Work?
 
-![Choose the pug you want to rent his services by clicking the left upper button (heart emoji)](examples/example1.png)
+Choose the pug you want to rent his services by clicking the left upper button (heart emoji)(examples/example1.png)
 
-![Each of the pugs has a 'more info' popup with a short explanation and the cost of his/hers expenses ](examples/example2.png)
+Each of the pugs has a 'more info' popup with a short explanation and the cost of his/hers expenses(examples/example2.png)
 
-![Clicking on the paw icon on the header leads to the 'cart' page where the pugs you chose appear and the total expenses cost. You can now submit a request or edit the 'cart' to your wishing](examples/example3.png)
+Clicking on the paw icon on the header leads to the 'cart' page where the pugs you chose appear and the total expenses cost. You can now submit a request or edit the 'cart' to your wishing(examples/example3.png)
 ## Technology Wise
 
 This mini-project was created purely on client-site, using `React`. 
