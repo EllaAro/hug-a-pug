@@ -1,9 +1,7 @@
 # Hug A Pug
 ## Description
 
-Stuck at home because of COVID-19? Why not get a cute pug at it?
-
-'Hug A Pug' provides a service for humans that want to rent the services of our cute puggy pups! In times like these, where COVID-19 has prevented us from having any human contact, we can now supplement it with some pug love!
+> Stuck at home because of COVID-19? Why not get a cute pug at it? 'HugAPug' provides a service for humans that want to rent the services of our cute puggy pups! In times like these, where COVID-19 has prevented us from having any human contact, we can now supplement it with some pug love!
 ## How Does The Site Work?
 
 ![Choose the pug you want to rent his services by clicking the left upper button (heart emoji)](examples/example1.png)
@@ -32,16 +30,12 @@ Packages :
 ### Installing
 ```
 npm install npm@latest -g
-```
-``` 
+
 npm install react --save
-```
-```
+
 npm install react-dom --save
-```
-```
+
 npm install react-router --save
-```
-```
+
 npm install reactjs-popup --save
 ```
