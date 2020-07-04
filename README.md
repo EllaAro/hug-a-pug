@@ -14,7 +14,7 @@
 This mini-project was created purely on client-site, using `React`. 
 Each of the components are purely functional components (usage of React hooks).
 For routing, `react-router` is used. 
-For maintaining information between pages/components `React Context` is used.
+For maintaining state between components `React Context` is used.
 
 
 
