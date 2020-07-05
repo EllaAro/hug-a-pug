@@ -31,11 +31,11 @@ Packages :
 ```
 npm install npm@latest -g
 
-npm install react --save
+npm install --save react
 
-npm install react-dom --save
+npm install --save react-dom
 
-npm install react-router --save
+npm install --save react-router
 
-npm install reactjs-popup --save
+npm install --save reactjs-popup
 ```
